@@ -1,0 +1,58 @@
+.body {
+    background-color: rgb(250, 250, 250);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+.app-box {
+    background-color: orange;
+    padding: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+
+.text-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 10%;
+}
+
+h1, h2 {
+    margin: 2px;
+}
+
+h2 {
+    font-size: 50%;
+}
+
+.time {
+    font-size: 300%;
+}
+
+.buttons-grid {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.button {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 5%;
+    background-color: orange;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: black;
+}
